@@ -19,6 +19,7 @@ Khi bắt đầu, xác định những thông tin sau từ lời nhắn và tệ
 - Tài liệu nguồn, dữ liệu, ảnh, bảng, logo được phép dùng; thông tin nào đã xác nhận và thông tin nào cần hỏi.
 - Các phần/chương bắt buộc; nội dung và mức độ chi tiết mong muốn cho từng phần nếu đã biết.
 - Bìa có cần không; **ảnh bìa** chọn một trong ba cách: không dùng ảnh, dùng ảnh người dùng cung cấp, hoặc tìm/tạo ảnh khi người dùng cho phép. Bìa không có ảnh vẫn có thể có logo và chữ. Nếu dùng ảnh, hỏi tệp/đề tài ảnh, quyền sử dụng và yêu cầu cắt/căn chỉnh khi cần. Không tự đặt logo, người, địa điểm hay nhận diện tổ chức.
+- Với báo cáo học thuật của người dùng tại Trường Đại học Quy Nhơn trong `D:\Baocaothuctap`, dùng [mẫu bìa Quy Nhơn](references/qnu-cover.md) theo mặc định khi cần bìa. Mẫu `.docx` đi kèm là chuẩn hình thức có sẵn; thay chủ đề và thông tin của tài liệu mới, không sao chép nội dung báo cáo cũ. Khi tài liệu thuộc đơn vị khác hoặc có mẫu chính thức khác, dùng mẫu phù hợp với tài liệu đó.
 
 Không ép người dùng điền đủ mọi mục ngay từ đầu. Ghi các điểm chưa rõ vào tệp yêu cầu thông tin, hỏi theo ưu tiên và tiếp tục phần việc không phụ thuộc câu trả lời. Không coi im lặng là đồng ý cho ảnh bìa, nội dung hoặc bản cuối.
 
