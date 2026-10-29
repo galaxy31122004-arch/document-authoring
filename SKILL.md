@@ -49,6 +49,7 @@ Hai tệp kế hoạch là tài liệu làm việc: cập nhật khi phạm vi �
 - Lập dàn ý trước khi dàn trang. Đặt thông tin chính ở đầu mục, mỗi đoạn một ý và chuyển ý rõ ràng. Dùng một hệ thống thuật ngữ, đơn vị, tên riêng và cách viết tắt nhất quán.
 - Với báo cáo: trình bày bối cảnh, phương pháp hoặc hoạt động, kết quả, phân tích và kết luận theo dữ liệu thực tế. Với đề xuất: nêu vấn đề, mục tiêu, phương án, nguồn lực và quyết định cần đưa ra. Với tài liệu hướng dẫn: sắp xếp theo tác vụ và trình tự người đọc thực hiện.
 - Viết số liệu cùng đơn vị và điều kiện áp dụng. Không biến ảnh, slide hoặc nhận xét cá nhân thành kết quả đo hay thông số sản phẩm. Chi tiết chưa chắc chắn thì tìm nguồn, hỏi hoặc lược bỏ.
+- Với ký hiệu toán học và kỹ thuật như tần số, chu kỳ, điện áp hoặc chỉ số bit, đặt phần chỉ số bằng thuộc tính subscript/superscript thật của Word (`f` với `CK` ở chỉ số dưới, `2` với `4` ở chỉ số trên). Không để dạng gõ tạm `f_CK`, `T_bit`, `T_seq` trong bản nộp. Nếu Word MCP có lệnh `format_math_expression`, dùng cú pháp `f_{CK}`, `T_{bit}`, `x^{2}` và kiểm tra lại ký hiệu sau khi lưu.
 - Cân đối độ dài bằng nội dung có ích. Không dùng câu lặp, ảnh trùng, ngắt trang tùy tiện hoặc dòng trống để đạt số trang.
 - Đặt nguồn và trích dẫn theo quy định của loại tài liệu. Nếu là ảnh hoặc dữ liệu do người dùng cung cấp, giữ dấu vết nguồn trong hồ sơ làm việc; cách ghi nguồn trong bản cuối theo mẫu/yêu cầu, không lặp dòng nguồn dài dưới mọi hình khi không cần.
 
@@ -66,11 +67,14 @@ Hai tệp kế hoạch là tài liệu làm việc: cập nhật khi phạm vi �
 - Ưu tiên phông, khổ giấy, lề và giãn dòng của mẫu. Khi không có mẫu, chọn định dạng trang trọng, dễ đọc; tài liệu học thuật tiếng Việt thường dùng A4, Times New Roman cỡ 13 và lề trái rộng hơn lề phải để đóng gáy. Không áp những giá trị này cho mọi loại tài liệu.
 - Chân trang ngắn và cùng cỡ chữ với trường số trang. Dùng trường `PAGE` thật thay vì gõ số cố định; ẩn hoặc đổi cách đánh số trên bìa/trang đầu theo mẫu.
 - Khi người dùng yêu cầu giống một tài liệu mẫu về **hình thức**, bắt buộc đọc [quy trình đo và tái tạo hình thức](references/visual-layout.md) trước khi sửa Word. Ghi kích thước khung, khoảng cách giữa các hàng, cỡ chữ và thiết lập từng section bằng số đo thực tế; không coi việc giữ nguyên file mẫu hoặc chỉ đổi lề là đã dàn trang xong.
+- Với báo cáo trong workspace này khi người dùng yêu cầu theo NCKH, lấy [thông số heading và danh sách NCKH](references/nckh-headings.md) làm chuẩn. Cấp ý chính dùng dấu `-`; ý phụ dùng dấu `+` và thụt sâu hơn. Không dùng dấu tròn mặc định hoặc màu xanh mặc định của Word cho heading.
 
 ## 5. Hình, bảng và chú thích
 
 - Chỉ chèn hình hoặc bảng giúp người đọc hiểu một nội dung cụ thể; đặt gần đoạn dẫn chiếu. Giữ tỷ lệ ảnh, đủ rõ khi xem/in, không cắt mất thông tin quan trọng.
 - Đánh số và chú thích nhất quán, ví dụ `Hình 3. Sơ đồ kết nối các khối.` hoặc `Bảng 2. Đối chiếu thông số.` Chú thích mô tả ngắn nội dung hình; không thêm suy đoán, lời phủ định dài hay ghi chú biên tập. Giữ hình và chú thích trên cùng trang.
+- Với đồ thị dạng sóng do tác giả dựng để giải thích bài học, chú thích gọi tên tín hiệu, kênh hoặc khối được thể hiện. Tránh các cụm biên tập như `mô phỏng lý thuyết`, `đầu ra lý tưởng` trong chú thích; giải thích bản chất hình ở đoạn dẫn khi cần. Không mô tả hình dựng như ảnh chụp phép đo thực tế.
+- Khi hình/sơ đồ đến từ tài liệu người dùng cung cấp và cách dẫn nguồn không bắt buộc ở từng hình, chú thích chỉ ghi số hình và nội dung ngắn. Bỏ đuôi kiểu `(Fig. 6 - Tài liệu DL 2563)`; giữ thông tin xuất xứ trong hồ sơ làm việc hoặc danh mục nguồn nếu cần. Nếu quy định nộp yêu cầu dẫn nguồn từng hình, tuân theo quy định đó.
 - Bảng cần đường kẻ và khoảng đệm đủ thoáng; hàng tiêu đề rõ, cỡ chữ dễ đọc. Tránh vỡ hàng qua trang; lặp hàng tiêu đề khi bảng kéo dài. Dùng cấu trúc bảng thật, không căn cột bằng nhiều dấu cách.
 - Với bảng tóm tắt trong báo cáo học thuật, lấy đúng kiểu bảng của mẫu: nếu mẫu dùng kẻ ô mảnh, nền trắng và hàng đầu đậm thì giữ cách đó; không tự thêm nền đậm, màu xen kẽ hoặc nhiều chữ trong một ô. Rút nội dung mỗi ô xuống một ý chính, chọn độ rộng cột theo lượng chữ và để hàng tự giãn đủ đọc.
 - Quy tắc mặc định cho bảng chữ đen là nền trắng cho toàn bộ bảng, gồm cả hàng tiêu đề. Chỉ dùng nền xanh, xám hoặc màu đậm khi người dùng/mẫu chính thức yêu cầu rõ; nếu dùng nền màu phải kiểm tra tương phản chữ và không làm giảm khả năng đọc khi in đen trắng.
