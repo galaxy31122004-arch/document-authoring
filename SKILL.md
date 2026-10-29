@@ -37,6 +37,21 @@ Không ép người dùng điền đủ mọi mục ngay từ đầu. Ghi các �
 
 Hai tệp kế hoạch là tài liệu làm việc: cập nhật khi phạm vi đổi, giữ trạng thái duyệt rõ ràng, không chèn câu hỏi biên tập hoặc chỗ trống vào bản nộp. Nếu một thông tin bắt buộc vẫn thiếu, hỏi hoặc dừng phần phụ thuộc thông tin đó; không điền đại.
 
+## Project folders
+
+When a document project needs separate folders, use clear English names unless
+an official template or existing workspace convention says otherwise:
+`source/` for original inputs, `figures/` for derived visuals, `drafts/` for
+earlier working versions, and `final/` for the current approved editable file
+and any matching export. Keep original filenames and do not mix source files
+with generated figures. A new approved release replaces the pair in `final/`;
+move the previous pair to `drafts/` without deleting it.
+
+Before moving existing files, inventory them and check references to their
+paths. Update project rules, README links, and working paths after the move;
+verify the final DOCX and exports at their new locations. Do not reorganize
+unrelated projects or impose folders on a single simple document.
+
 ## 1. Xác định yêu cầu
 
 1. Xác định loại tài liệu, người đọc, mục đích, ngôn ngữ, phạm vi nội dung, định dạng nộp và thời hạn nếu có. Đọc chỉ dẫn của workspace, mẫu chính thức và tài liệu nguồn trước khi soạn.
@@ -49,7 +64,7 @@ Hai tệp kế hoạch là tài liệu làm việc: cập nhật khi phạm vi �
 - Lập dàn ý trước khi dàn trang. Đặt thông tin chính ở đầu mục, mỗi đoạn một ý và chuyển ý rõ ràng. Dùng một hệ thống thuật ngữ, đơn vị, tên riêng và cách viết tắt nhất quán.
 - Với báo cáo: trình bày bối cảnh, phương pháp hoặc hoạt động, kết quả, phân tích và kết luận theo dữ liệu thực tế. Với đề xuất: nêu vấn đề, mục tiêu, phương án, nguồn lực và quyết định cần đưa ra. Với tài liệu hướng dẫn: sắp xếp theo tác vụ và trình tự người đọc thực hiện.
 - Viết số liệu cùng đơn vị và điều kiện áp dụng. Không biến ảnh, slide hoặc nhận xét cá nhân thành kết quả đo hay thông số sản phẩm. Chi tiết chưa chắc chắn thì tìm nguồn, hỏi hoặc lược bỏ.
-- Với ký hiệu toán học và kỹ thuật như tần số, chu kỳ, điện áp hoặc chỉ số bit, đặt phần chỉ số bằng thuộc tính subscript/superscript thật của Word (`f` với `CK` ở chỉ số dưới, `2` với `4` ở chỉ số trên). Không để dạng gõ tạm `f_CK`, `T_bit`, `T_seq` trong bản nộp. Nếu Word MCP có lệnh `format_math_expression`, dùng cú pháp `f_{CK}`, `T_{bit}`, `x^{2}` và kiểm tra lại ký hiệu sau khi lưu.
+- Với ký hiệu toán học và kỹ thuật như tần số, chu kỳ, điện áp hoặc chỉ số bit, đặt phần chỉ số bằng thuộc tính subscript/superscript thật của Word (`f` với `CK` ở chỉ số dưới, `2` với `4` ở chỉ số trên). Không để dạng gõ tạm `f_CK`, `T_bit`, `T_seq` trong bản nộp. Rà toàn tài liệu, gồm cả ô bảng, để tìm dấu `_` còn sót trong biểu thức. Dùng Word MCP `format_math_expression` hoặc `format_math_expression_in_table_cell` với cú pháp `f_{CK}`, `b_{k-1}`, `x^{2}` rồi kiểm tra lại ký hiệu sau khi lưu.
 - Cân đối độ dài bằng nội dung có ích. Không dùng câu lặp, ảnh trùng, ngắt trang tùy tiện hoặc dòng trống để đạt số trang.
 - Đặt nguồn và trích dẫn theo quy định của loại tài liệu. Nếu là ảnh hoặc dữ liệu do người dùng cung cấp, giữ dấu vết nguồn trong hồ sơ làm việc; cách ghi nguồn trong bản cuối theo mẫu/yêu cầu, không lặp dòng nguồn dài dưới mọi hình khi không cần.
 
@@ -80,7 +95,7 @@ Hai tệp kế hoạch là tài liệu làm việc: cập nhật khi phạm vi �
 - Quy tắc mặc định cho bảng chữ đen là nền trắng cho toàn bộ bảng, gồm cả hàng tiêu đề. Chỉ dùng nền xanh, xám hoặc màu đậm khi người dùng/mẫu chính thức yêu cầu rõ; nếu dùng nền màu phải kiểm tra tương phản chữ và không làm giảm khả năng đọc khi in đen trắng.
 - Với ảnh thực nghiệm, ưu tiên một ảnh và một chú thích thành một khối riêng; chỉ đặt hai ảnh cạnh nhau khi cả hai cần được so trực tiếp và chữ/chú thích vẫn rõ ở cỡ in. Không để ảnh liên tiếp trong một bảng chỉ để tiết kiệm trang. Trước khi ghi chú thích, đối chiếu ảnh gốc, kênh đo, vị trí trong quy trình và phần/bài tương ứng; ảnh không chứng minh được chi tiết nào thì không gán chi tiết đó. Không lặp cùng ảnh dưới tên khác ở nhiều phần.
 - Sau khi Word dàn trang, kiểm tra phần trống ở cuối từng trang nội dung, đặc biệt các trang có ảnh. Nếu khoảng trống lớn mà nội dung vẫn tiếp tục ở trang sau, kiểm tra ảnh trùng, đoạn rỗng, ngắt trang và kích thước ảnh; chuyển ảnh đến đúng mục, xóa đoạn rỗng thừa hoặc thu ảnh vừa đủ để dòng chữ trên ảnh vẫn đọc được. Giữ ảnh với chú thích cùng trang và không ép mỗi ảnh sang một trang riêng khi không cần.
-- Nếu mẫu không bắt buộc chương bắt đầu trang mới và người dùng ưu tiên bố cục gọn, cho chương/mục lớn chảy tiếp trên trang còn chỗ; dùng `keep with next` để giữ tiêu đề với đoạn đầu. Kiểm tra cả màu chữ kế thừa từ style Word cũ: tiêu đề phải theo màu của mẫu, không tự mang màu xanh mặc định.
+- Chương hoặc mục lớn được phép bắt đầu ngay trên trang hiện tại khi còn đủ chỗ cho tiêu đề và đoạn mở đầu; không tự đặt `page break before` chỉ vì lên chương mới. Dùng `keep with next` để giữ tiêu đề với đoạn đầu và chỉ ngắt trang khi mẫu chính thức, giảng viên hoặc người dùng yêu cầu. Kiểm tra cả màu chữ kế thừa từ style Word cũ: tiêu đề phải theo màu của mẫu, không tự mang màu xanh mặc định.
 - Kết quả thử nghiệm ghi đúng điều kiện và quan sát được xác nhận, ví dụ khoảng điều chỉnh và trạng thái bộ đếm. Không tự suy ra tỷ lệ lỗi, ngưỡng tuyệt đối hay kết luận so sánh giữa nhiều hệ thống khi chưa có dữ liệu đo tương ứng.
 - Cấu hình giãn dòng cho **mọi vùng có chữ**, kể cả ô bảng, bìa, mục lục, phần ký và chú thích. Không coi việc đổi cỡ chữ, tăng chiều cao hàng hay đổi khoảng cách đoạn là đã đặt giãn dòng. Đo và ghi riêng `line spacing`, `Space Before` và `Space After` cho từng vai trò; kiểm tra lại các ô có chữ xuống nhiều dòng.
 - Hình từ nguồn ngoài phải được ghi nguồn theo yêu cầu áp dụng; không bỏ nguồn bắt buộc vì một tài liệu mẫu từng dùng ảnh tự chụp.
