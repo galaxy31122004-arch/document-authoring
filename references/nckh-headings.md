@@ -1,6 +1,6 @@
 # Heading và danh sách theo mẫu NCKH
 
-Nguồn hình thức: `D:\Baocaothuctap\Bao cao - NCKH_Nhom1 (23-Feb)-v2.docx`. Chỉ dùng khi người dùng yêu cầu theo hình thức NCKH hoặc báo cáo cùng kiểu trong workspace này; không lấy nội dung của mẫu.
+Nguồn hình thức: mẫu báo cáo NCKH do người dùng cung cấp. Chỉ dùng khi người dùng yêu cầu theo hình thức NCKH hoặc báo cáo cùng kiểu; không lấy nội dung của mẫu.
 
 | Vai trò | Phông/cỡ | Màu | Cách trước | Cách sau | Giãn dòng |
 | --- | --- | --- | ---: | ---: | --- |

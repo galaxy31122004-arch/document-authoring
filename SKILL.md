@@ -19,7 +19,7 @@ Khi bắt đầu, xác định những thông tin sau từ lời nhắn và tệ
 - Tài liệu nguồn, dữ liệu, ảnh, bảng, logo được phép dùng; thông tin nào đã xác nhận và thông tin nào cần hỏi.
 - Các phần/chương bắt buộc theo yêu cầu hoặc mẫu. Nếu nhiệm vụ gồm soạn nội dung, hỏi mức độ viết cho từng phần: `khái quát` (ý chính), `vừa đủ` (ý chính kèm giải thích và căn cứ), `chuyên sâu` (phân tích và đối chiếu có nguồn), hoặc `tùy chỉnh`. Mức độ viết không tự quy đổi thành số trang; có thể hỏi thêm số trang mục tiêu như một ràng buộc riêng.
 - Bìa có cần không; **ảnh bìa** chọn một trong ba cách: không dùng ảnh, dùng ảnh người dùng cung cấp, hoặc tìm/tạo ảnh khi người dùng cho phép. Bìa không có ảnh vẫn có thể có logo và chữ. Nếu dùng ảnh, hỏi tệp/đề tài ảnh, quyền sử dụng và yêu cầu cắt/căn chỉnh khi cần. Không tự đặt logo, người, địa điểm hay nhận diện tổ chức.
-- Với báo cáo học thuật của người dùng tại Trường Đại học Quy Nhơn trong `D:\Baocaothuctap`, dùng [mẫu bìa Quy Nhơn](references/qnu-cover.md) theo mặc định khi cần bìa. Mẫu `.docx` đi kèm là chuẩn hình thức có sẵn; thay chủ đề và thông tin của tài liệu mới, không sao chép nội dung báo cáo cũ. Khi tài liệu thuộc đơn vị khác hoặc có mẫu chính thức khác, dùng mẫu phù hợp với tài liệu đó.
+- Với báo cáo học thuật tại Trường Đại học Quy Nhơn, dùng [mẫu bìa Quy Nhơn](references/qnu-cover.md) khi người dùng yêu cầu hoặc mẫu chính thức cho phép. Mẫu `.docx` đi kèm là chuẩn hình thức có sẵn; thay chủ đề và thông tin của tài liệu mới, không sao chép nội dung báo cáo cũ. Khi tài liệu thuộc đơn vị khác hoặc có mẫu chính thức khác, dùng mẫu phù hợp với tài liệu đó.
 
 Không ép người dùng điền đủ mọi mục ngay từ đầu. Ghi các điểm chưa rõ vào tệp yêu cầu thông tin, hỏi theo ưu tiên và tiếp tục phần việc không phụ thuộc câu trả lời. Không coi im lặng là đồng ý cho ảnh bìa, nội dung hoặc bản cuối.
 
@@ -103,6 +103,7 @@ unrelated projects or impose folders on a single simple document.
 ## 6. Dùng Word MCP
 
 - Khi `mcp__word_document_server` có sẵn, **luôn dùng MCP làm đường chính**: `get_document_info`, `get_document_outline`, `get_document_text` để đọc; `copy_document` để tạo bản làm việc; lệnh MCP phù hợp để sửa và đọc lại kết quả. Dùng đường dẫn đầy đủ và lưu bản mới có tên rõ ràng.
+- Mã nguồn Word MCP đi kèm skill nằm trong `word-mcp/` của cùng repo. Khi cần thêm hoặc sửa lệnh MCP, chỉnh tại đây, chạy kiểm thử và khởi động lại MCP để nhận mã mới; commit skill và MCP trong cùng repo.
 - Nếu MCP thực sự không có lệnh cho thuộc tính cần sửa như giãn dòng, neo khung bìa, mục lục hay trường số trang, dùng Word/OOXML **chỉ cho thuộc tính đó**; sau đó mở/đọc lại tài liệu bằng MCP và kiểm tra cấu trúc DOCX. Không dùng tự động hóa giao diện hay ảnh chụp màn hình thay cho MCP. Sau thao tác mở/lưu, xác nhận các trường động như `PAGE` và mục lục vẫn còn.
 - `get_document_info` chỉ xác nhận đọc được file và metadata; `page_count` có thể là giá trị cũ. Khi MCP chưa cho xem trang đã dàn, chỉ báo đã kiểm tra cấu trúc/thuộc tính, không tuyên bố bố cục in hoặc độ giống mẫu đã đạt. Chỉ xuất PDF khi người dùng yêu cầu hoặc xác nhận bản Word đã đạt.
 
