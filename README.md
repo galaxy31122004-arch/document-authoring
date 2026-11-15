@@ -8,6 +8,7 @@
 | [structured-workspace](structured-workspace/SKILL.md) | Tạo workspace, AGENTS.md và file dẫn hướng cho các AI. |
 | [presentation-from-reference](presentation-from-reference/SKILL.md) | Làm PowerPoint theo nền mẫu, nội dung và ảnh có nguồn. |
 | [tao-slide](tao-slide/SKILL.md) | Tạo bộ slide mới trên claude.ai Slides theo mẫu "Kem – xanh ngọc" khi không có file PPTX mẫu. |
+| [esp32-wifi-provisioning](esp32-wifi-provisioning/SKILL.md) | Firmware ESP32 dùng WiFi: lưu mạng trong `D:\Secrets` (ngoài git), tự lấy mạng PC khi không có mạng đã lưu ở gần, sinh `wifi_secrets.h` (gitignore), module NVS nhiều mạng + trang cấu hình. |
 | [web-ui-style](web-ui-style/SKILL.md) | Phong cách giao diện web/dashboard: tối giản đơn sắc, viền chuyển sáng mảnh, góc khung ngắm; quy tắc ThingsBoard. |
 
 ## Quy tắc bắt buộc cho mọi skill

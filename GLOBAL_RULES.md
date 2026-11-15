@@ -17,6 +17,7 @@ This file is the ONE source of global rules for every AI host on this machine (C
 
 ## Workspaces and deliverables
 - Every workspace and every personal-skill output follows the `structured-workspace` skill (`D:\Personal-Skills\structured-workspace\SKILL.md`): folders `sandbox/`, `documents/`, `source-code/`, `versions/`, `considerations/`, and mandatory `vX.Y.Z` versioning. When a skill and this base disagree, the base wins.
+- **ESP32 firmware that uses WiFi** (new or existing project, any host): always follow the `esp32-wifi-provisioning` skill (`D:\Personal-Skills\esp32-wifi-provisioning\SKILL.md`). Never hardcode SSIDs or passwords; run its scripts before building, and before flashing a board that is plugged in. The script adds a "WiFi ESP32" section to the project's AGENTS.md so later sessions see it.
 - **Exception: TMT projects** (`D:\TMT\...`): do not apply or propose personal skills (structured-workspace, document-authoring, presentation-from-reference, tao-slide, web-ui-style...) there. Use only the repo's local skills and the AXON (TMT) skills, and follow that repo's own AGENTS.md conventions.
 
 ## Work log (every task)

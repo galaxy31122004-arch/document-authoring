@@ -41,6 +41,8 @@ Số phiên bản đặt ở một chỗ (PlatformIO: `custom_fw_version` trong 
 
 Giữ env build cho mỗi phiên bản cũ còn biên dịch được (tên env PlatformIO không được có dấu chấm: `esp32dev-v0_2_0`). Phiên bản cũ không biên dịch được thì chỉ lưu trữ và ghi rõ trong bảng.
 
+ESP32 có dùng WiFi: theo skill `esp32-wifi-provisioning` (không ghi SSID/mật khẩu vào code). Chạy `make-wifi-secrets.ps1 -Project <thư mục firmware/v<version>>` trước khi build; script thêm mục "WiFi ESP32" có đủ lệnh vào AGENTS.md này.
+
 '''
 
 
