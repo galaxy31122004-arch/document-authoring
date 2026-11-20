@@ -20,6 +20,9 @@ This file is the ONE source of global rules for every AI host on this machine (C
 - **ESP32 firmware that uses WiFi** (new or existing project, any host): always follow the `esp32-wifi-provisioning` skill (`D:\Personal-Skills\esp32-wifi-provisioning\SKILL.md`). Never hardcode SSIDs or passwords; run its scripts before building, and before flashing a board that is plugged in. The script adds a "WiFi ESP32" section to the project's AGENTS.md so later sessions see it.
 - **Exception: TMT projects** (`D:\TMT\...`): do not apply or propose personal skills (structured-workspace, document-authoring, presentation-from-reference, tao-slide, web-ui-style...) there. Use only the repo's local skills and the AXON (TMT) skills, and follow that repo's own AGENTS.md conventions.
 
+## Host settings (not tied to any project)
+- **Claude Code: Remote Control is always on.** Every Claude Code session starts with Remote Control enabled, so it can be followed and driven from claude.ai / the mobile app. Set via `"remoteControlAtStartup": true` in `~/.claude.json` (same as `/config` → "Enable Remote Control for all sessions"). If it is found off, turn it back on; never disable it without asking.
+
 ## Work log (every task)
 - After every task that changes something (files, builds, flashing, installs, config), append an entry to the project's work log: `documents/work-log.md` (TMT projects: the repo's own log convention if any, else `docs/work-log.md`). No project → `D:\Downloads\work-log.md`.
 - Newest entry at the bottom. Format: `## YYYY-MM-DD HH:MM — <short title>` then bullets: request, actions (files/commands), result, not verified / open points.
